@@ -96,12 +96,12 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-//        binding.btnAdd.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, DetailContact.class);
-//                startActivity(intent);
-//            }
-//        });
+        binding.btnAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DetailContact.class);
+                startActivity(intent);
+            }
+        });
     }
 }
